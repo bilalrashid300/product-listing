@@ -15,7 +15,7 @@ const Home = () => {
                             <Switch>
                                 <Route exact path="/" component={ProductListing}/>
                                 <Route exact path="/product" component={ProductListing}/>
-                                <Route path={`/product/:id`} component={ProductDetail}/>
+                                <Route exact path="/product/:id" component={ProductDetail}/>
                                 <Route><div className="text-center">OOPS! 404 NOT FOUND</div></Route>
                             </Switch>
                         </div>
