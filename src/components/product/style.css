@@ -1,0 +1,11 @@
+.image-card{
+    /* height: 200px; */
+    max-width: 200px;
+    text-align: center;
+    margin: auto;
+}
+
+/* .image-card img{
+    height:100%;
+    width: auto;
+} */
